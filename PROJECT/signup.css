@@ -1,0 +1,106 @@
+.image{
+    width: 100%;
+    height : 100%;
+}
+.block{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width : 30%;
+    position: relative;
+    bottom : 500px;
+    left : 200px;
+    background-color: aliceblue;
+    height: 400px;
+}
+.h1{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    position: relative;
+    top : 25px;
+}
+.email{
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 25px;
+	font-weight: 700;
+	width: 50%;
+    position: relative;
+    left : 3px;
+	transition: .2s;
+}
+.email:active,
+.email:focus,
+.email:hover {
+	outline: none;
+	border-bottom-color: black;
+}
+.pass{
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 50%;
+    position: relative;
+    left : 3px;
+	transition: .2s;
+}
+.pass:active,
+.pass:focus,
+.pass:hover {
+	outline: none;
+	border-bottom-color: black;
+}
+.Email{
+    position: relative;
+    left : 90px;
+}
+.Pass{
+    position: relative;
+    left : 90px;
+}
+.button{
+    position: relative;
+    top : 10px;
+    left : 60px; 
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width : 150px;
+}
+.user-name{
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 25px;
+	font-weight: 700;
+	width: 50%;
+    position: relative;
+    left : 3px;
+	transition: .2s;
+}
+.user-name:active,
+.user-name:focus,
+.user-name:hover {
+	outline: none;
+	border-bottom-color: black;
+}
+.user{
+    position: relative;
+    left : 90px;
+}
+.p{
+    position: relative;
+    left : 100px;
+    top : 20px;
+}
+.sign-up{
+    position: relative;
+    left: 275px;
+    bottom : 15px;
+}

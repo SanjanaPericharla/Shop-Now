@@ -1,0 +1,48 @@
+body{
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 18px 18px;
+}
+
+li a:hover{
+    background-color: #111;
+    color: white;
+}
+
+.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("w1.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.c1{
+    height: 10;
+    width: 800;
+    font-family: cursive;
+    position: relative;
+    bottom: 500px;
+    left: 1000px;
+}
